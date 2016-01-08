@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A75332697FBACB5BDC6A5B /* libPods-SmartecTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DC16DB1AD091530861D4F9 /* libPods-SmartecTask.a */; };
+		A76FD1E71BCA894E0086C460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD1E61BCA894E0086C460 /* main.m */; };
+		A76FD1EA1BCA894E0086C460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD1E91BCA894E0086C460 /* AppDelegate.m */; };
+		A76FD1F01BCA894E0086C460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76FD1EE1BCA894E0086C460 /* Main.storyboard */; };
+		A76FD1F21BCA894E0086C460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76FD1F11BCA894E0086C460 /* Images.xcassets */; };
+		A76FD1F51BCA894E0086C460 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76FD1F31BCA894E0086C460 /* LaunchScreen.xib */; };
+		A76FD2011BCA894E0086C460 /* SmartecTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD2001BCA894E0086C460 /* SmartecTaskTests.m */; };
+		A76FD20C1BCA8CDF0086C460 /* FlickrPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD20B1BCA8CDF0086C460 /* FlickrPhotosTableViewController.m */; };
+		A76FD2121BCA8D340086C460 /* MorePhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD2111BCA8D340086C460 /* MorePhotosTableViewController.m */; };
+		A7F526F81BCA95D600857935 /* FetchPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F526F71BCA95D600857935 /* FetchPhotos.m */; };
+		A7F526FB1BCA984B00857935 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F526FA1BCA984B00857935 /* FlickrPhoto.m */; };
+		A7F526FE1BCA9ADB00857935 /* FlickrPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F526FD1BCA9ADB00857935 /* FlickrPhotoTableViewCell.m */; };
+		A7F527191BCAACA200857935 /* FlickrPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD20B1BCA8CDF0086C460 /* FlickrPhotosTableViewController.m */; };
+		A7F5271A1BCAACA200857935 /* MorePhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD2111BCA8D340086C460 /* MorePhotosTableViewController.m */; };
+		A7F5271B1BCAACA200857935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD1E91BCA894E0086C460 /* AppDelegate.m */; };
+		A7F5271C1BCAACA200857935 /* FlickrPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F526FD1BCA9ADB00857935 /* FlickrPhotoTableViewCell.m */; };
+		A7F5271D1BCAACA200857935 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F526FA1BCA984B00857935 /* FlickrPhoto.m */; };
+		A7F5271E1BCAACA200857935 /* FetchPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F526F71BCA95D600857935 /* FetchPhotos.m */; };
+		A7F5271F1BCAACA200857935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FD1E61BCA894E0086C460 /* main.m */; };
+		A7F527211BCAACA200857935 /* libPods-SmartecTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DC16DB1AD091530861D4F9 /* libPods-SmartecTask.a */; };
+		A7F527231BCAACA200857935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76FD1EE1BCA894E0086C460 /* Main.storyboard */; };
+		A7F527241BCAACA200857935 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76FD1F31BCA894E0086C460 /* LaunchScreen.xib */; };
+		A7F527251BCAACA200857935 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76FD1F11BCA894E0086C460 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A76FD1FB1BCA894E0086C460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76FD1D91BCA894E0086C460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76FD1E01BCA894E0086C460;
+			remoteInfo = SmartecTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DC16DB1AD091530861D4F9 /* libPods-SmartecTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartecTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76FD1E11BCA894E0086C460 /* SmartecTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartecTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76FD1E51BCA894E0086C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76FD1E61BCA894E0086C460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A76FD1E81BCA894E0086C460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A76FD1E91BCA894E0086C460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A76FD1EF1BCA894E0086C460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A76FD1F11BCA894E0086C460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A76FD1F41BCA894E0086C460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A76FD1FA1BCA894E0086C460 /* SmartecTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartecTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76FD1FF1BCA894E0086C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76FD2001BCA894E0086C460 /* SmartecTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SmartecTaskTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A76FD20A1BCA8CDF0086C460 /* FlickrPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = FlickrPhotosTableViewController.h; path = Controller/FlickrPhotosTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A76FD20B1BCA8CDF0086C460 /* FlickrPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = FlickrPhotosTableViewController.m; path = Controller/FlickrPhotosTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A76FD2101BCA8D340086C460 /* MorePhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MorePhotosTableViewController.h; path = Controller/MorePhotosTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A76FD2111BCA8D340086C460 /* MorePhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MorePhotosTableViewController.m; path = Controller/MorePhotosTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A7F526F61BCA95D600857935 /* FetchPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FetchPhotos.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A7F526F71BCA95D600857935 /* FetchPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FetchPhotos.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A7F526F91BCA984B00857935 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = FlickrPhoto.h; path = Model/FlickrPhoto.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A7F526FA1BCA984B00857935 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = FlickrPhoto.m; path = Model/FlickrPhoto.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A7F526FC1BCA9ADB00857935 /* FlickrPhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = FlickrPhotoTableViewCell.h; path = View/FlickrPhotoTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A7F526FD1BCA9ADB00857935 /* FlickrPhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = FlickrPhotoTableViewCell.m; path = View/FlickrPhotoTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A7F5272A1BCAACA200857935 /* SmartecTask copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartecTask copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE070895673B0F064FD1833B /* Pods-SmartecTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartecTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartecTask/Pods-SmartecTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F80F71A52B06B57E7D2951C2 /* Pods-SmartecTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartecTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartecTask/Pods-SmartecTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76FD1DE1BCA894E0086C460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A75332697FBACB5BDC6A5B /* libPods-SmartecTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76FD1F71BCA894E0086C460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F527201BCAACA200857935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F527211BCAACA200857935 /* libPods-SmartecTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76FD1D81BCA894E0086C460 = {
+			isa = PBXGroup;
+			children = (
+				A76FD1E31BCA894E0086C460 /* SmartecTask */,
+				A76FD1FD1BCA894E0086C460 /* SmartecTaskTests */,
+				A76FD1E21BCA894E0086C460 /* Products */,
+				BA8273578FED5FE3E8CA5EAF /* Pods */,
+				BEF4E5F892C774C9C39FDF7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A76FD1E21BCA894E0086C460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD1E11BCA894E0086C460 /* SmartecTask.app */,
+				A76FD1FA1BCA894E0086C460 /* SmartecTaskTests.xctest */,
+				A7F5272A1BCAACA200857935 /* SmartecTask copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76FD1E31BCA894E0086C460 /* SmartecTask */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD20D1BCA8CE20086C460 /* Delegate */,
+				A7F526FF1BCAAAB600857935 /* API */,
+				A7F526F51BCA95A500857935 /* Model */,
+				A76FD20F1BCA8CF50086C460 /* View */,
+				A76FD20E1BCA8CEA0086C460 /* Controller */,
+				A76FD1EE1BCA894E0086C460 /* Main.storyboard */,
+				A76FD1F11BCA894E0086C460 /* Images.xcassets */,
+				A76FD1F31BCA894E0086C460 /* LaunchScreen.xib */,
+				A76FD1E41BCA894E0086C460 /* Supporting Files */,
+			);
+			path = SmartecTask;
+			sourceTree = "<group>";
+		};
+		A76FD1E41BCA894E0086C460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD1E51BCA894E0086C460 /* Info.plist */,
+				A76FD1E61BCA894E0086C460 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A76FD1FD1BCA894E0086C460 /* SmartecTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD2001BCA894E0086C460 /* SmartecTaskTests.m */,
+				A76FD1FE1BCA894E0086C460 /* Supporting Files */,
+			);
+			path = SmartecTaskTests;
+			sourceTree = "<group>";
+		};
+		A76FD1FE1BCA894E0086C460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD1FF1BCA894E0086C460 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A76FD20D1BCA8CE20086C460 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD1E81BCA894E0086C460 /* AppDelegate.h */,
+				A76FD1E91BCA894E0086C460 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A76FD20E1BCA8CEA0086C460 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A76FD20A1BCA8CDF0086C460 /* FlickrPhotosTableViewController.h */,
+				A76FD20B1BCA8CDF0086C460 /* FlickrPhotosTableViewController.m */,
+				A76FD2101BCA8D340086C460 /* MorePhotosTableViewController.h */,
+				A76FD2111BCA8D340086C460 /* MorePhotosTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A76FD20F1BCA8CF50086C460 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7F526FC1BCA9ADB00857935 /* FlickrPhotoTableViewCell.h */,
+				A7F526FD1BCA9ADB00857935 /* FlickrPhotoTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A7F526F51BCA95A500857935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7F526F91BCA984B00857935 /* FlickrPhoto.h */,
+				A7F526FA1BCA984B00857935 /* FlickrPhoto.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7F526FF1BCAAAB600857935 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A7F526F61BCA95D600857935 /* FetchPhotos.h */,
+				A7F526F71BCA95D600857935 /* FetchPhotos.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		BA8273578FED5FE3E8CA5EAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE070895673B0F064FD1833B /* Pods-SmartecTask.debug.xcconfig */,
+				F80F71A52B06B57E7D2951C2 /* Pods-SmartecTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEF4E5F892C774C9C39FDF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36DC16DB1AD091530861D4F9 /* libPods-SmartecTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76FD1E01BCA894E0086C460 /* SmartecTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76FD2041BCA894E0086C460 /* Build configuration list for PBXNativeTarget "SmartecTask" */;
+			buildPhases = (
+				C5494510DCDEF65E59626B59 /* Check Pods Manifest.lock */,
+				A76FD1DD1BCA894E0086C460 /* Sources */,
+				A76FD1DE1BCA894E0086C460 /* Frameworks */,
+				A76FD1DF1BCA894E0086C460 /* Resources */,
+				4A02D317B5A9300B7B24A9D8 /* Copy Pods Resources */,
+				EB9C7EC75826F40B7C6B8D02 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartecTask;
+			productName = SmartecTask;
+			productReference = A76FD1E11BCA894E0086C460 /* SmartecTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A76FD1F91BCA894E0086C460 /* SmartecTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76FD2071BCA894E0086C460 /* Build configuration list for PBXNativeTarget "SmartecTaskTests" */;
+			buildPhases = (
+				A76FD1F61BCA894E0086C460 /* Sources */,
+				A76FD1F71BCA894E0086C460 /* Frameworks */,
+				A76FD1F81BCA894E0086C460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76FD1FC1BCA894E0086C460 /* PBXTargetDependency */,
+			);
+			name = SmartecTaskTests;
+			productName = SmartecTaskTests;
+			productReference = A76FD1FA1BCA894E0086C460 /* SmartecTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F527161BCAACA200857935 /* SmartecTask copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F527271BCAACA200857935 /* Build configuration list for PBXNativeTarget "SmartecTask copy" */;
+			buildPhases = (
+				A7F527171BCAACA200857935 /* Check Pods Manifest.lock */,
+				A7F527181BCAACA200857935 /* Sources */,
+				A7F527201BCAACA200857935 /* Frameworks */,
+				A7F527221BCAACA200857935 /* Resources */,
+				A7F527261BCAACA200857935 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartecTask copy";
+			productName = SmartecTask;
+			productReference = A7F5272A1BCAACA200857935 /* SmartecTask copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76FD1D91BCA894E0086C460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HazemMaher;
+				TargetAttributes = {
+					A76FD1E01BCA894E0086C460 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A76FD1F91BCA894E0086C460 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A76FD1E01BCA894E0086C460;
+					};
+				};
+			};
+			buildConfigurationList = A76FD1DC1BCA894E0086C460 /* Build configuration list for PBXProject "SmartecTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A76FD1D81BCA894E0086C460;
+			productRefGroup = A76FD1E21BCA894E0086C460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76FD1E01BCA894E0086C460 /* SmartecTask */,
+				A76FD1F91BCA894E0086C460 /* SmartecTaskTests */,
+				A7F527161BCAACA200857935 /* SmartecTask copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76FD1DF1BCA894E0086C460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76FD1F01BCA894E0086C460 /* Main.storyboard in Resources */,
+				A76FD1F51BCA894E0086C460 /* LaunchScreen.xib in Resources */,
+				A76FD1F21BCA894E0086C460 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76FD1F81BCA894E0086C460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F527221BCAACA200857935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F527231BCAACA200857935 /* Main.storyboard in Resources */,
+				A7F527241BCAACA200857935 /* LaunchScreen.xib in Resources */,
+				A7F527251BCAACA200857935 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A02D317B5A9300B7B24A9D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartecTask/Pods-SmartecTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F527171BCAACA200857935 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F527261BCAACA200857935 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartecTask/Pods-SmartecTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5494510DCDEF65E59626B59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9C7EC75826F40B7C6B8D02 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartecTask/Pods-SmartecTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76FD1DD1BCA894E0086C460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76FD20C1BCA8CDF0086C460 /* FlickrPhotosTableViewController.m in Sources */,
+				A76FD2121BCA8D340086C460 /* MorePhotosTableViewController.m in Sources */,
+				A76FD1EA1BCA894E0086C460 /* AppDelegate.m in Sources */,
+				A7F526FE1BCA9ADB00857935 /* FlickrPhotoTableViewCell.m in Sources */,
+				A7F526FB1BCA984B00857935 /* FlickrPhoto.m in Sources */,
+				A7F526F81BCA95D600857935 /* FetchPhotos.m in Sources */,
+				A76FD1E71BCA894E0086C460 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76FD1F61BCA894E0086C460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76FD2011BCA894E0086C460 /* SmartecTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F527181BCAACA200857935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F527191BCAACA200857935 /* FlickrPhotosTableViewController.m in Sources */,
+				A7F5271A1BCAACA200857935 /* MorePhotosTableViewController.m in Sources */,
+				A7F5271B1BCAACA200857935 /* AppDelegate.m in Sources */,
+				A7F5271C1BCAACA200857935 /* FlickrPhotoTableViewCell.m in Sources */,
+				A7F5271D1BCAACA200857935 /* FlickrPhoto.m in Sources */,
+				A7F5271E1BCAACA200857935 /* FetchPhotos.m in Sources */,
+				A7F5271F1BCAACA200857935 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A76FD1FC1BCA894E0086C460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76FD1E01BCA894E0086C460 /* SmartecTask */;
+			targetProxy = A76FD1FB1BCA894E0086C460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A76FD1EE1BCA894E0086C460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76FD1EF1BCA894E0086C460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A76FD1F31BCA894E0086C460 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76FD1F41BCA894E0086C460 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76FD2021BCA894E0086C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A76FD2031BCA894E0086C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76FD2051BCA894E0086C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE070895673B0F064FD1833B /* Pods-SmartecTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartecTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azab.task;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A76FD2061BCA894E0086C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80F71A52B06B57E7D2951C2 /* Pods-SmartecTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartecTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azab.task;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A76FD2081BCA894E0086C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartecTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartecTask.app/SmartecTask";
+			};
+			name = Debug;
+		};
+		A76FD2091BCA894E0086C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartecTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartecTask.app/SmartecTask";
+			};
+			name = Release;
+		};
+		A7F527281BCAACA200857935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE070895673B0F064FD1833B /* Pods-SmartecTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					TARGET_LITE,
+				);
+				INFOPLIST_FILE = "SmartecTask copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "SmartecTask copy";
+			};
+			name = Debug;
+		};
+		A7F527291BCAACA200857935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80F71A52B06B57E7D2951C2 /* Pods-SmartecTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					TARGET_LITE,
+				);
+				INFOPLIST_FILE = "SmartecTask copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "SmartecTask copy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76FD1DC1BCA894E0086C460 /* Build configuration list for PBXProject "SmartecTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76FD2021BCA894E0086C460 /* Debug */,
+				A76FD2031BCA894E0086C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76FD2041BCA894E0086C460 /* Build configuration list for PBXNativeTarget "SmartecTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76FD2051BCA894E0086C460 /* Debug */,
+				A76FD2061BCA894E0086C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76FD2071BCA894E0086C460 /* Build configuration list for PBXNativeTarget "SmartecTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76FD2081BCA894E0086C460 /* Debug */,
+				A76FD2091BCA894E0086C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F527271BCAACA200857935 /* Build configuration list for PBXNativeTarget "SmartecTask copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F527281BCAACA200857935 /* Debug */,
+				A7F527291BCAACA200857935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76FD1D91BCA894E0086C460 /* Project object */;
+}
